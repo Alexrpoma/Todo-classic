@@ -61,7 +61,6 @@ const App: FC = () => {
   }
 
   const handleFilterChange = (filter: FilterValues): void => {
-    console.log(filter)
     setFilterSelected(filter)
   }
 

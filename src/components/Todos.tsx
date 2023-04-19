@@ -14,7 +14,7 @@ export const Todos: FC<Props> = ({ todos, onRemoveTodo, onToggleCompleteTodo }) 
       {todos.map(todo => (
         <li
           key={todo.id}
-          className={todo.completed ? 'Completed' : ''}
+          className={todo.completed ? 'completed' : ''}
         >
           <Todo
             key={todo.id}

@@ -14,9 +14,9 @@ export const Todo: React.FC<Props> = ({ id, title, completed, onRemoveTodo, onTo
   }
 
   return (
-    <div>
+    <div className='view'>
       <input
-        className='view'
+        className='toggle'
         checked={completed}
         type='checkbox'
         onChange={handleChangeCheckbox}
